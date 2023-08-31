@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Xin chào",
+        "Xin chao",
+        "Có ai ở đó không?",
+        "Hello",
+        "Good day",
+        "Tôi cần tư vấn"
+      ],
+      "responses": [
+        "Tmobile xin chào! Bạn vui lòng nhập nội dung cần hỗ trợ nhé."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "pp", "Tạm biệt nhé"],
+      "responses": [
+        "Cảm ơn quý khách đã ghé thăm Tmobile, chúc quý khách có một ngày tốt lành!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Hữu ích đấy",
+        "Có ích đấy",
+        "Bổ ích đấy",
+        "Cảm ơn nhé"
+      ],
+      "responses": [
+        "Hihi, cảm ơn bạn nhé. Tmobile luôn sẵn sàng giải đáp mọi thắc mắc của bạn."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": ["Sản phẩm bên bạn có gì?", "Shop bán gì?"],
+      "responses": [
+        "Tmobile cung cấp những mẫu điện thoại mới nhất với mức giá hợp ví cùng nhiều ưu đãi hấp dẫn cho khách hàng."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Thanh toán?",
+        "Tôi có thể thanh toán qua đâu?",
+        "Tôi có thể thanh toán qua Momo chứ?"
+      ],
+      "responses": [
+        "Bạn có thể thanh toán qua Momo hoặc mobile banking qua số tài khoản 09xxxx26"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["Vận chuyển mất bao lâu?", "Bao lâu thì tôi nhận được hàng"],
+      "responses": [
+        "Nếu bạn ở Hà Nội hoặc HCM, bạn sẽ nhận được hàng sau 3-5 ngày. Ở các tỉnh khác là 7 ngày."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Kể chuyện cười", "Kể chuyện cười đi"],
+      "responses": [
+        "Tại sao yasuo không thể bị nhốt ở ngoài?...Vì anh ấy has a key :(("
+      ]
+    }
+  ]
+}
