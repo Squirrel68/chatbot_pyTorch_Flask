@@ -31,4 +31,6 @@ $ (venv) python chat.py
 quit
 ```
 Run project
+```
 $ (venv) python app.py
+```
